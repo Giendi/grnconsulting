@@ -30,14 +30,16 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <div class="jumbotron text-center bg-light">
-    <h1 class="display-4">Welcome to GRN Consulting</h1>
-    <p class="lead">Expert market research in cancer testing, hematology, automation/AI, and point-of-care diagnostics</p>
+  <!-- Hero Banner -->
+<div class="hero-banner">
+  <div class="hero-content">
+    <h1>Welcome to GRN Consulting</h1>
+    <p>Expert market research in cancer testing, hematology, automation/AI, and point-of-care diagnostics</p>
     <a href="reports.html" class="btn btn-primary btn-lg">Explore Reports</a>
-    <a href="contact.html" class="btn btn-outline-secondary btn-lg">Contact Us</a>
-  </div>
+    <a href="contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+ </div>
 
+</div>
   <!-- Services Section -->
   <div class="container my-5">
     <div class="row">

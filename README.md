@@ -37,7 +37,8 @@
     <p>Expert market research in cancer testing, hematology, automation/AI, and point-of-care diagnostics</p>
     <a href="reports.html" class="btn btn-primary btn-lg">Explore Reports</a>
     <a href="contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
- </div>
+   </div>
+</div>
 
 </div>
   <!-- Services Section -->

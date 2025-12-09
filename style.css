@@ -190,3 +190,66 @@ footer p {
   background-color: var(--secondary);
   color: #fff;
 }
+/* =========================
+   Card Style Set
+   ========================= */
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Card Header */
+.card-header {
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1.5rem;
+  color: var(--neutral-dark);
+}
+.card-body h5 {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.card-body p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Card Footer */
+.card-footer {
+  background-color: var(--neutral-light);
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Special Variants */
+.card-primary {
+  border-top: 4px solid var(--primary);
+}
+.card-secondary {
+  border-top: 4px solid var(--secondary);
+}
+.card-success {
+  border-top: 4px solid var(--accent);
+}
+.card-highlight {
+  border-top: 4px solid var(--highlight);
+}

@@ -1,16 +1,64 @@
-# grnconsulting
-## *Turning complex diagnostics into clear market insights for smarter healthcare business decisions.*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GRN Consulting - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-### Clinical Diagnostics Market Research Services
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
-At the intersection of healthcare innovation and strategic insight, I provide specialized market research services tailored to the evolving field of clinical diagnostics. With extensive experience in cancer testing, hematology, automation and artificial intelligence, and point‑of‑care diagnostics, I deliver actionable intelligence that empowers organizations to make informed decisions in a competitive landscape.
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">GRN Consulting</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
 
-My services include **ready‑made market reports** that offer comprehensive coverage of key diagnostic segments. These reports are designed for executives, investors, and product managers who need immediate access to reliable data on market size, growth trends, competitive dynamics, and regulatory developments. Each report is structured to highlight emerging technologies, leading players, and opportunities for differentiation, ensuring that clients can quickly identify where to focus their resources.
+  <!-- Hero Section -->
+  <div class="jumbotron text-center bg-light">
+    <h1 class="display-4">Welcome to GRN Consulting</h1>
+    <p class="lead">Expert market research in cancer testing, hematology, automation/AI, and point-of-care diagnostics</p>
+    <a href="reports.html" class="btn btn-primary btn-lg">Explore Reports</a>
+    <a href="contact.html" class="btn btn-outline-secondary btn-lg">Contact Us</a>
+  </div>
 
-For organizations requiring deeper, tailored insights, I also provide **customized research solutions**. Leveraging advanced methodologies and a consultative approach, I work closely with clients to define specific objectives—whether it’s assessing the adoption potential of a new diagnostic platform, evaluating reimbursement pathways, or mapping competitive positioning in niche markets. My ability to combine quantitative analysis with qualitative expertise ensures that every customized report is both rigorous and relevant to the client’s strategic goals.
+  <!-- Services Section -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <h3>Custom Research</h3>
+        <p>Tailored insights to meet your diagnostic testing needs.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h3>Ready-Made Reports</h3>
+        <p>Access comprehensive reports instantly for faster decision-making.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <h3>Consulting Expertise</h3>
+        <p>Strategic guidance to empower your business growth.</p>
+      </div>
+    </div>
+  </div>
 
-Beyond traditional market research, I bring technical fluency in workflow design, automation, and data architecture. This allows me to not only analyze diagnostic technologies but also understand their practical integration into laboratory and clinical settings. My iterative problem‑solving style and attention to user experience ensure that findings are presented with clarity and professional polish, enabling stakeholders to act with confidence.
-
-Whether you are a startup seeking to validate a novel diagnostic test, a multinational aiming to expand into new geographies, or an investor evaluating opportunities in precision medicine, my services provide the clarity and foresight needed to succeed. By combining domain expertise with strategic empathy, I help clients transform complex diagnostic markets into actionable pathways for growth.
-
-
+  <!-- Footer -->
+  <footer class="text-center bg-dark text-white p-3">
+    <p>&copy; 2025 GRN Consulting | Rockville, MD</p>
+  </footer>
+</body>
+</html>
